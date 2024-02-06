@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/src/assets/images/sdd.png" />
+    <title>Ehsas Lab</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
+    <style>
+        .cursor {
+          position: fixed;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #51f704;
+          border-radius: 50%;
+          left: 0;
+          top: 0;
+          pointer-events: none;
+          transform: translate(-50%, -50%);
+          transition: .1s;
+        }
+    
+        .cursor2 {
+          position: fixed;
+          width: 8px;
+          height: 8px;
+          background-color: #010f87;
+          border-radius: 50%;
+          left: 0;
+          top: 0;
+          pointer-events: none;
+          transform: translate(-50%, -50%);
+          transition: .15s;
+        }
+      </style>
+
+</head>
+
+<body class="">
+    <div id="root">
+        
+    </div>
+    <div class="cursor"></div>
+  <div class="cursor2"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script>
+        document.addEventListener("mousemove", function(e) {
+          var cursor = document.querySelector(".cursor");
+          var cursor2 = document.querySelector(".cursor2");
+          if (cursor && cursor2) {
+            cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+          }
+        });
+      </script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+</body>  
+
+</html>
+
+<!-- 0302 my otp number -->
